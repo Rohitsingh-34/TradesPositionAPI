@@ -23,6 +23,7 @@ dotnet run --project TradesPositionAPI
 ```
 
 The API will start (by default) on `https://localhost:{port}`. Open Swagger UI at `https://localhost:{port}/swagger` in development environment.
+<img width="3151" height="1670" alt="image" src="https://github.com/user-attachments/assets/c7ac3d29-d1fc-47ff-ba78-64ccf7343308" />
 
 ---
 
@@ -183,9 +184,9 @@ Note SELL reduced `totalQuantity` but does not change `averagePrice`.
 
 ## Project files of interest
 
-- `Program.cs` — application startup and DI registration
-- `Controllers/TradesController.cs` — endpoints for adding and querying trades
-- `Controllers/PositionsController.cs` — endpoint for retrieving positions
-- `Services/TradeService.cs` and `Services/PositionService.cs` — business logic
-- `Storage/InMemoryStore.cs` — in-memory store and position calculation
-- `Models/Trade.cs`, `Models/Position.cs` — data models
+- `Program.cs` â€” application startup and DI registration
+- `Controllers/TradesController.cs` â€” endpoints for adding and querying trades
+- `Controllers/PositionsController.cs` â€” endpoint for retrieving positions
+- `Services/TradeService.cs` and `Services/PositionService.cs` â€” business logic
+- `Storage/InMemoryStore.cs` â€” in-memory store and position calculation
+- `Models/Trade.cs`, `Models/Position.cs` â€” data models
